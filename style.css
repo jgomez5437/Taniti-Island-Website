@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    width: auto;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+#main-screen{
+    height: 100%;
+}
+
+.home-screen{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#home-title{
+    text-align: center;
+    margin-top: 20%;
+}
+
+#island_pic{
+    width: 80%;
+}
+
+.align-text{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+}
+
+.more-info-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#more-info-text{
+    text-align: center;
+    margin-top: 7vh;
+}
+
+#down-arrow-pic{
+    width: 16%;
+}
