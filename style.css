@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    height: 200vh;
     width: auto;
     background-color: antiquewhite;
     margin: 0;
@@ -7,10 +7,10 @@ body{
 }
 
 #main-screen{
-    height: 100%;
+    height: 100vh;
 }
 
-.home-screen{
+.home-screen, .info-screen{
     width: 100%;
     display: flex;
     align-items: center;
@@ -36,16 +36,71 @@ body{
 .more-info-section{
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+#arrow-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #more-info-text{
     text-align: center;
-    margin-top: 7vh;
+    margin-top: 4vh;
 }
 
 #down-arrow-pic{
     width: 16%;
+}
+
+#button-navigation{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5vh
+}
+
+#info-title{
+    margin-top: 8vh;
+}
+
+.info-button{
+    width: 15vh;
+    height: 15vh;
+    background-color: rgb(255, 124, 124);
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    margin: 0vh 2vh 2vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#more-info-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.more-info-button{
+    width: 90%;
+    height: 15vh;
+    background-color: rgb(255, 124, 124);
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
