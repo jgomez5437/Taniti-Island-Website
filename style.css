@@ -23,6 +23,11 @@ body{
     margin-top: 20%;
 }
 
+#home-title-two{
+    text-align: center;
+    margin-top: 20%;
+}
+
 #island_pic{
     width: 80%;
 }
@@ -31,6 +36,14 @@ body{
     font-size: 1.2rem;
     text-align: center;
     margin: 0;
+}
+
+#info-title{
+    text-align: left;
+}
+
+.info-content{
+    margin: 3vh;
 }
 
 .more-info-section{
