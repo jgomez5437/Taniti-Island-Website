@@ -25,7 +25,7 @@ body{
 
 #home-title-two{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 #island_pic{
@@ -116,4 +116,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#back-button-img{
+    width: 13vh;
+    margin-left: 2vh;
+}
+
+#back-button{
+    width: 13vh;
+    margin-left: 2vh;
+
 }
