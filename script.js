@@ -1,3 +1,5 @@
+alert("Please view website in mobile view")
+
 const pageInformation = {
     Restaurants:{
         title: "Restaurants",

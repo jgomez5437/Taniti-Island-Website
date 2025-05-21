@@ -128,3 +128,9 @@ body{
     margin-left: 2vh;
 
 }
+
+@media screen and (min-width: 1003px){
+    #info-title{
+        margin-top: 60vh;
+    }
+}
